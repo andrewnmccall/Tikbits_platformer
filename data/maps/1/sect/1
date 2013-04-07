@@ -1,0 +1,26 @@
+{
+diCount: 2,
+di: [
+	{
+		command: Image,
+		relative: true,
+		resource: img/maps/bg.png
+	},
+	{
+		command: Image,
+		resource: img/maps/grass.png,
+                repeat_right: true,
+		bounds: {
+			width: 4,
+			height: 2,
+			y: -1.5
+		}
+	}
+],
+c: [
+    {
+        collidableType: LINE,
+        line: [{x:-9999,y:0},{x:9999,y:0}]
+    }
+]
+}
