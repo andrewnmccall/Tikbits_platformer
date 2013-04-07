@@ -1,0 +1,16 @@
+{
+    name: "Tikbit",
+    id: 0,
+    diCount: 1,
+    bounds: {
+        width: 1,
+        height: 1
+    },
+    di: [
+        {
+            class: com.socialinept.tikbits.m.PhysicalObjectDrawingInstruction,
+            command: Image,
+            resource: img/sprites/tikbit.png
+        }
+    ]
+}
